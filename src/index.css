@@ -1,0 +1,82 @@
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* AppBar Styles */
+.AppBar {
+  background-color: red !important;
+}
+
+/* Typography */
+h6 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+Typography, .MuiTypography-body2 {
+  color: #666;
+}
+
+/* Card Styles */
+.Card {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.Card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.CardContent {
+  padding: 16px !important;
+}
+
+/* Grid Container */
+.Grid-container {
+  margin-top: 20px;
+}
+
+/* Buttons */
+.Button {
+  margin-top: 20px;
+  background-color: #1e88e5 !important;
+  color: white !important;
+}
+
+.Button:hover {
+  background-color: #1565c0 !important;
+}
+
+/* TextField */
+.TextField {
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+/* Container */
+.Container {
+  padding: 20px;
+}
+
+/* Utility Classes */
+.flexGrow {
+  flex-grow: 1;
+}

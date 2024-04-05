@@ -1,0 +1,39 @@
+/* Search.css */
+.search-input {
+margin-bottom: 20px;
+}
+
+.product-card {
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+transform: translateY(-5px);
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+object-fit: cover;
+}
+
+.product-title {
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.product-description {
+margin-bottom: 10px;
+}
+
+.product-price {
+color: #1976d2;
+margin-bottom: 10px;
+}
+
+.add-to-cart-button {
+transition: transform 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+transform: scale(1.2);
+}
